@@ -1,6 +1,5 @@
 'use client'
 
-import Image from 'next/image'
 import { motion } from 'framer-motion'
 import MessageSwitcher from '@/components/MessageSwitcher'
 import bannerData from '@/data/banner.json'
@@ -8,19 +7,14 @@ import bannerData from '@/data/banner.json'
 export default function Banner() {
   return (
     <div className="relative w-full rounded-2xl overflow-hidden mb-8 border border-[#2A2A2A] shadow-2xl shadow-black/25 bg-[#121212]">
-      <div className="absolute inset-0 z-0">
-        <Image
-          src={bannerData.background}
-          alt={bannerData.title}
-          fill
-          priority
-          sizes="(max-width: 768px) 100vw, 1200px"
-          className="object-cover object-center"
-        />
-      </div>
-      <div className="absolute inset-0 bg-gradient-to-r from-black via-black/75 to-transparent z-10" />
-      <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10" />
-      <div className="absolute -left-16 top-10 h-48 w-48 rounded-full bg-[#1DB954]/15 blur-3xl z-10" />
+      <div className="absolute inset-0 z-0 bg-[#0B0B0B]" />
+      <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_top_left,rgba(29,185,84,0.16),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(255,79,129,0.14),transparent_32%),linear-gradient(135deg,#050505_0%,#101010_46%,#050505_100%)]" />
+      <div className="absolute inset-0 z-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.05)_0%,rgba(255,255,255,0)_24%,rgba(255,255,255,0)_76%,rgba(255,255,255,0.035)_100%)]" />
+      <div className="absolute inset-x-0 top-0 h-40 z-10 bg-[linear-gradient(180deg,rgba(255,255,255,0.06)_0%,rgba(255,255,255,0.03)_26%,rgba(255,255,255,0)_100%)]" />
+      <div className="absolute inset-x-0 bottom-0 h-40 z-10 bg-[linear-gradient(0deg,rgba(255,255,255,0.06)_0%,rgba(255,255,255,0.03)_26%,rgba(255,255,255,0)_100%)]" />
+      <div className="absolute left-0 top-0 h-full w-1/2 z-10 bg-[linear-gradient(90deg,rgba(255,255,255,0.03)_0%,rgba(255,255,255,0)_70%)]" />
+      <div className="absolute right-0 top-0 h-full w-1/2 z-10 bg-[linear-gradient(270deg,rgba(255,255,255,0.03)_0%,rgba(255,255,255,0)_70%)]" />
+      <div className="absolute -left-16 top-10 h-48 w-48 rounded-full bg-[#1DB954]/12 blur-3xl z-10" />
       <div className="absolute right-0 bottom-0 h-56 w-56 rounded-full bg-[#FF4F81]/10 blur-3xl z-10" />
       <motion.div
         initial={{ opacity: 0, y: 24, scale: 0.98 }}
