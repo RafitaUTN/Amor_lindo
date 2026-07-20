@@ -1,0 +1,20 @@
+[
+  {
+    "id": "inicio",
+    "title": "Inicio",
+    "icon": "home",
+    "subtitle": "Un rincón para recordar"
+  },
+  {
+    "id": "playlist",
+    "title": "Nuestra lista",
+    "icon": "list-music",
+    "subtitle": "Canciones que cuentan nuestra historia"
+  },
+  {
+    "id": "moments",
+    "title": "Nuestros momentos",
+    "icon": "heart",
+    "subtitle": "Fotografías para recordar"
+  }
+]

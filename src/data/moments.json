@@ -1,0 +1,58 @@
+{
+  "page": {
+    "id": "moments",
+    "title": "Momentos especiales",
+    "description": "Cada fotografía guarda una parte de nuestra historia."
+  },
+  "search": {
+    "enabled": true,
+    "placeholder": "Busca un detalle o momento",
+    "icon": "search"
+  },
+  "moments": [
+    {
+      "id": 1,
+      "title": "Su regalito",
+      "description": "El regalo del 14 de febrero de 2026, un detalle que me recuerda lo bonito que es compartirle amor.",
+      "image": "/fotos/Su regalito.jpg",
+      "location": "14 de febrero de 2026",
+      "favorite": true,
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Yo dormido en sus piernas",
+      "description": "Un momento donde me siento bonito, tranquilo y seguro, porque a su lado todo se siente en paz.",
+      "image": "/fotos/Yo dormido en sus piernas.jpg",
+      "location": "Nuestro rincón favorito",
+      "favorite": false,
+      "featured": false
+    },
+    {
+      "id": 3,
+      "title": "De compras",
+      "description": "Acompañarla de compras en Ciudad Quesada fue una de esas salidas sencillas que terminan volviéndose recuerdos preciosos.",
+      "image": "/fotos/De compras.jpeg",
+      "location": "Ciudad Quesada",
+      "favorite": true,
+      "featured": false
+    }
+  ],
+  "gallery": {
+    "layout": "grid",
+    "columns": {
+      "desktop": 4,
+      "tablet": 2,
+      "mobile": 2
+    },
+    "gap": 20,
+    "cardRadius": 12,
+    "lightbox": {
+      "enabled": true,
+      "showNavigation": true,
+      "showCounter": true,
+      "allowKeyboard": true,
+      "allowSwipe": true
+    }
+  }
+}

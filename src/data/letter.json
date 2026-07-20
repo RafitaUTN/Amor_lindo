@@ -1,0 +1,21 @@
+{
+  "letter": {
+    "id": "love-letter",
+    "title": "Para el amor de mi vida Yeyis ❤️",
+    "author": "Con todo mi amor",
+    "date": "",
+    "icon": "heart",
+    "content": [
+      "Amor, hay algo que he pensado mucho estos días y es que lo más bonito que hemos construido no son solo los planes que tenemos, sino la confianza que existe entre nosotros. Me gusta ver cómo poco a poco usted se siente más tranquila para decirme lo que siente, porque sé que antes le costaba mucho hacerlo.",
+      "La verdad, saber que conmigo puede ser usted misma y hablar sin miedo significa demasiado para mí, no porque me diga cosas lindas, sino porque me demuestra que hemos hecho de nuestra relación un lugar donde los dos nos sentimos seguros.",
+      "Cuando usted me habla del futuro y me incluye en él, no imagina lo mucho que eso me hace sentir. Me gusta pensar que algún día vamos a recordar estas conversaciones y nos vamos a reír porque muchas de las cosas que hoy imaginamos ya serán parte de nuestra vida.",
+      "Mientras ese momento llega, quiero seguir disfrutando cada etapa con usted, verla cumplir sus metas, acompañarla en las buenas y en las difíciles y seguir aprendiendo a quererla cada día un poquito más.",
+      "Gracias por confiar en mí de la manera en que lo hace. La adoro muchísimo y espero que nunca dejemos de hablar con el corazón como lo hacemos ahora.",
+      "Te quiero mucho, mi niña. ❤️"
+    ],
+    "footer": {
+      "signature": "Con mucho amor ❤️",
+      "showSignature": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "splashScreen": {
+    "enabled": true,
+    "duration": 2000,
+    "logo": "/images/logo.png"
+  },
+  "layout": {
+    "sidebar": {
+      "width": 280,
+      "fixed": true
+    },
+    "header": {
+      "sticky": true
+    },
+    "content": {
+      "maxWidth": 1400
+    },
+    "player": {
+      "fixedBottom": true,
+      "height": 82
+    }
+  }
+}

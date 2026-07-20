@@ -1,0 +1,11 @@
+{
+  "name": "Nuestra Playlist",
+  "tagline": "Hecho con amor para Yeyis ❤️",
+  "theme": {
+    "mode": "dark",
+    "primaryColor": "#1DB954",
+    "secondaryColor": "#FF4F81",
+    "background": "#000000",
+    "card": "#121212"
+  }
+}

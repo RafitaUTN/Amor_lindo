@@ -1,0 +1,14 @@
+{
+  "title": "Nuestro amor para siempre",
+  "background": "/images/banner.jpg",
+  "buttons": [
+    {
+      "id": "change-message",
+      "label": "Cambiar mensaje"
+    },
+    {
+      "id": "letter",
+      "label": "Ver carta"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "mode": "dark",
+  "background": "#000000",
+  "surface": "#121212",
+  "card": "#181818",
+  "border": "#2A2A2A",
+  "primary": "#1DB954",
+  "secondary": "#FF4F81",
+  "text": "#FFFFFF",
+  "textSecondary": "#B3B3B3",
+  "cardRadius": 16
+}

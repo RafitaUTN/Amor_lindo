@@ -1,0 +1,53 @@
+{
+  "page": {
+    "id": "playlist",
+    "title": "Nuestra lista romántica",
+    "description": "Las canciones y recuerdos más importantes de nuestra historia."
+  },
+  "search": {
+    "enabled": true,
+    "placeholder": "Busca un detalle o momento",
+    "icon": "search"
+  },
+  "playlist": [
+    {
+      "id": 1,
+      "title": "El inicio de nosotros ❤️",
+      "description": "La primera conversación que nos cambió la vida y abrió la puerta a todo lo bonito que vino después.",
+      "cover": "/fotos/primeraconversacion.jpg",
+      "audio": "/music/Cults - Always Forever (SPOTISAVER).mp3",
+      "favorite": true,
+      "featured": true,
+      "duration": "3:42",
+      "artist": "Nuestra Historia",
+      "year": 2026,
+      "color": "#FF4F81"
+    },
+    {
+      "id": 2,
+      "title": "Lo que hemos construido 🤍",
+      "description": "Todo lo que hemos construido juntos tiene la calma, la ternura y la confianza que solo usted me da.",
+      "cover": "/fotos/Construido.png",
+      "audio": "/music/Dstance - Niña Bonita - Acústico (SPOTISAVER).mp3",
+      "favorite": false,
+      "featured": false,
+      "duration": "4:08",
+      "artist": "Nuestra Historia",
+      "year": 2026,
+      "color": "#1DB954"
+    },
+    {
+      "id": 3,
+      "title": "Todo lo que viene",
+      "description": "Lo más bonito todavía está por escribirse, y quiero seguir viviendo cada etapa de la mano con usted.",
+      "cover": "/fotos/Todo lo que viene.jpg",
+      "audio": "/music/The Goo Goo Dolls - Iris (SPOTISAVER).mp3",
+      "favorite": false,
+      "featured": false,
+      "duration": "3:57",
+      "artist": "Nuestra Historia",
+      "year": 2026,
+      "color": "#FFD166"
+    }
+  ]
+}
